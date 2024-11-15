@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -236,6 +235,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 337bdcf9f01273449a5beb2e9a3f2e65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carModel: GroupTrack R35
+  engineType: V6, Twin Turbo
+  carWeight: 1609
+  yearMade: 2009
+  maxAcceleration: 0.98
+  isCarTypeSedan: 0
+  hasFrontEngine: 1
+  carMaker: 
 --- !u!4 &859919826
 Transform:
   m_ObjectHideFlags: 0
@@ -250,4 +257,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &979952395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 979952397}
+  - component: {fileID: 979952396}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &979952396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979952395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 337bdcf9f01273449a5beb2e9a3f2e65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carModel: Huracan Evo
+  engineType: Naturally Aspirated V10
+  carWeight: 1665
+  yearMade: 2019
+  maxAcceleration: 1.06
+  isCarTypeSedan: 0
+  hasFrontEngine: 0
+  carMaker: Lamborghini
+--- !u!4 &979952397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979952395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
